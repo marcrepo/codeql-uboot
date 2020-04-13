@@ -1,7 +1,7 @@
 import cpp
 
-from Macro m
-where m.getName()="ntohs" 
-   or m.getName()="ntohl"
-   or m.getName()="ntohll"
-select m,"ntoh macro"
+from Macro m1
+where m1.getName()="ntohs" 
+   or m1.getName()="ntohl"
+   or m1.getName()="ntohll"
+select m1,"ntoh macro"
