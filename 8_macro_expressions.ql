@@ -1,4 +1,7 @@
 import cpp
 
 from MacroInvocation m
-select m.getExpr(),"macro expression"
+where m.getMacroName()="ntohs" 
+   or m.getMacroName()="ntohl"
+   or m.getMacroName()="ntohll"
+select m.getExpr()
